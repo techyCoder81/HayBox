@@ -6,7 +6,7 @@
 #include "core/state.hpp"
 
 typedef struct {
-    bool true_z_press = false;
+    bool true_z_press = true;
     bool ledgedash_max_jump_traj = true;
 } ProjectMOptions;
 
